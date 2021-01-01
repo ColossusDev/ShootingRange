@@ -16,7 +16,7 @@ public class PlayerMovementScript : MonoBehaviour
     public LayerMask groundMask; 
 
     Vector3 velocity;
-    bool isGrounded;
+    public bool isGrounded;
 
     // Start is called before the first frame update
     void Start()
