@@ -18,6 +18,8 @@ public class PlayerMovementScript : MonoBehaviour
     Vector3 velocity;
     public bool isGrounded;
 
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +38,17 @@ public class PlayerMovementScript : MonoBehaviour
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
+
+        animator.SetFloat("speed",Mathf.Abs(x + z));
+
+        if (Input.GetButtonDown("Fire2"))
+        {
+            animator.SetBool("aiming", true);
+        }
+        else if(Input.GetButtonUp("Fire2"))
+        {
+            animator.SetBool("aiming", false);
+        }
 
         Vector3 move = transform.right * x + transform.forward * z;
 
