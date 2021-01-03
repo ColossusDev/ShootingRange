@@ -448,6 +448,56 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.585
       objectReference: {fileID: 0}
+    - target: {fileID: 7364157571678526026, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364157571678526026, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364157571678526026, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364157571678526026, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364157571678526026, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364157571678526026, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364157571678526026, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364157571678526026, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.2720158
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364157571678526026, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.18881187
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364157571678526026, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8080809975580749688, guid: 9a37b4de67ae6134eaa5a03a735d0e63,
         type: 3}
       propertyPath: animator
